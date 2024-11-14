@@ -1,6 +1,7 @@
 import styles from "../style";
 import { motion } from "framer-motion";
 import { parthmittal } from "../assets";
+import { aboutMe } from "../constants";
 
 const Loading = () => {
   return (
@@ -15,7 +16,12 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={parthmittal} alt="Parth Mittal" className="w-[80px] h-[80px]" />
+      <div className="mt-4 w-[220px] h-[60px] bg-blue-gradient p-[2px] rounded-md flex items-center justify-center">
+        <h1 className="font-poppins font-semibold text-[20px] text-white leading-[30px] w-full h-full bg-primary rounded-md flex items-center justify-center">
+          <span className="text-gradient">Rohit Kumar</span>
+        </h1>
+      </div>
+
     </motion.div>
   );
 };

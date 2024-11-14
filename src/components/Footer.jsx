@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { socialMedia, aboutMe } from "../constants";
-import { profilePic } from "../assets";
+import { rohit } from "../assets";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
@@ -12,9 +12,9 @@ const Footer = () => (
       className={`${layout.sectionReverse} xl:max-w-[1280px] w-full mx-auto gap-y-4 `}
     >
       <div className={` ${layout.sectionInfo}`}>
-        <h2 className="text-xl font-bold text-gray-800 font-poppins dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
-          {aboutMe.name}
-        </h2>
+          <h1 className="text-xl font-semibold font-poppins text-gray-700 capitalize md:text-2xl group-hover:text-white text-gradient">
+            {aboutMe.name}
+          </h1>
         <p
           className={`font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px] max-w-[470px] mt-5`}
         >
@@ -42,7 +42,7 @@ const Footer = () => (
           <a href={repoLink} target="_blank">
             <Button
               styles="mt-10 inline-flex items-center justify-center"
-              text="Star"
+              text="Github"
               icon={AiFillGithub}
             />
           </a>
@@ -51,15 +51,15 @@ const Footer = () => (
 
       <div className="md:ml-auto mt-10 md:mt-0">
         <img
-          src={profilePic}
-          alt="Parth Mittal"
+          src={rohit}
+          alt="Rohit Kumar"
           className="w-[200px] h-[200px] border-2 border-teal-200 relative z-[5] rounded-full"
         />
       </div>
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
       <p>
-        Made with 💙 by Parth Mittal & the Open Source Community
+        Made with 💙 by Rohit Kumar & the Open Source Community
       </p>
     </div>
   </footer>

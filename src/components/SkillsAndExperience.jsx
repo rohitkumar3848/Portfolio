@@ -2,6 +2,7 @@ import React from "react";
 import { experiences, skills } from "../constants";
 import { layout } from "../style";
 import { motion } from "framer-motion";
+import { BsLink45Deg } from "react-icons/bs";
 
 export const SkillIcon = ({ icon, name }) => {
   return (
@@ -82,7 +83,17 @@ const ExperienceCard = (props) => {
           >
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {position.title}
+              {position.title}&nbsp;
+              {position.link ? (
+          <a href={position.link} target="_blank">
+            <BsLink45Deg
+              size="1rem"
+              className="inline hover:text-teal-200"
+            ></BsLink45Deg>
+          </a>
+        ) : (
+          ""
+        )}
             </h3>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {position.duration}

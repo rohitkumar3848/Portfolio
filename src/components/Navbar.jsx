@@ -2,6 +2,7 @@ import { useState } from "react";
 import { close, parthmittal, menu } from "../assets";
 import { navLinks } from "../constants";
 import { scrollToSection } from "../lib/helperFunctions";
+import { aboutMe } from "../constants";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -10,11 +11,20 @@ const Navbar = () => {
     <nav className="w-full  flex justify-between items-center navbar">
       {/* Logo */}
       <a href="#home">
-        <img
-          src={parthmittal}
-          alt="Parth Mittal"
-          className="w-[80px] h-[80px]"
-        />
+       
+      <div className="mt-4 w-[250px] h-[60px] bg-primary p-[2px] rounded-md flex items-center justify-center relative">
+        <div className="absolute left-0 top-0 h-full w-4 bg-gradient-to-t from-blue-400 to-purple-400 rounded-l-md"></div>
+          <h1 className="font-poppins font-semibold text-[20px] text-white flex items-center justify-center">
+            <span className="text-gradient">Rohit Kumar</span>
+          </h1>
+        <div className="absolute right-0 top-0 h-full w-4 bg-gradient-to-t from-purple-400 to-blue-400 rounded-r-md"></div>
+      </div>
+
+
+
+
+
+
       </a>
 
       {/* List of links */}

@@ -47,8 +47,31 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import mmm1 from "./mmm1.jpg";
+import aml from "./aml.gif";
+import khmc from "./khmc.jpg";
+import dbrau from "./dbrau.jpg";
+import codeclause from "./codeclause.png";
+import realestate from "./RealEstate.jpg";
+import crop from "./cropandf.jpg";
+import ems from "./ems.jpg";
+import hms from "./hms.jpg";
+import codingninjas from './codingninjas.jpg';
+import gfg from './gfg.jpg';
+import leetcode from './leetcode.png';
+import hackerrank from './hackerrank.png';
+import rohit from './rohit1.png';
 
 export {
+  rohit,
+  codingninjas,
+  leetcode,
+  hackerrank,
+  gfg,
+  hms,
+  ems,
+  crop,
+  realestate,
   quotes,
   robot,
   send,
@@ -58,6 +81,7 @@ export {
   close,
   google,
   apple,
+  codeclause,
   arrowUp,
   discount,
   facebook,
@@ -97,5 +121,9 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  mmm1,
+  aml,
+  khmc,
+  dbrau,
 };
