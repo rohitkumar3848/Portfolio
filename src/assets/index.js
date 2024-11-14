@@ -60,7 +60,7 @@ import codingninjas from './codingninjas.jpg';
 import gfg from './gfg.jpg';
 import leetcode from './leetcode.png';
 import hackerrank from './hackerrank.png';
-import rohit from './rohit1.png';
+import rohit from './rohit1.PNG';
 
 
 export {
