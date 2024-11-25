@@ -60,11 +60,8 @@ import codingninjas from './codingninjas.jpg';
 import gfg from './gfg.jpg';
 import leetcode from './leetcode.png';
 import hackerrank from './hackerrank.png';
-<<<<<<< HEAD
 import rohit from './rohit.jpg';
-=======
-import rohit from './rohit1.PNG';
->>>>>>> 9553fa7d07ea20fd9894f58ae90f6f42472f892b
+
 
 
 export {
