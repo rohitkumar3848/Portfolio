@@ -61,10 +61,7 @@ import gfg from './gfg.jpg';
 import leetcode from './leetcode.png';
 import hackerrank from './hackerrank.png';
 import rohit from './rohit.jpg';
-<<<<<<< HEAD
 
-=======
->>>>>>> 7bd1254d944da06f084cce0b7efbb4a535658010
 
 
 export {
