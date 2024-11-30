@@ -635,7 +635,7 @@ export const projects = [
     id: "project-10",
     title: "Portfolio",
     github: "https://github.com/rohitkumar3848/Portfolio",
-    link: "https://67364341c0646f34815748c3--silly-kheer-077077.netlify.app/",
+    link: "https://portfolio-jqso.onrender.com",
     image: portfolio,
     content: "A personal portfolio website built with React and styled using Tailwind CSS, showcasing projects, skills, and experience in a clean, responsive design. This site provides a streamlined, professional layout that highlights accomplishments and technical expertise effectively.",
     stack: [
