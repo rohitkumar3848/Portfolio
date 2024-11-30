@@ -123,7 +123,7 @@ import {
 import { DiCss3, DiDatabase, DiEclipse, DiJava, DiMsqlServer, DiNetbeans, DiRuby } from "react-icons/di";
 import { BsDatabaseGear, BsLayerBackward } from "react-icons/bs";
 
-export const resumeLink = "https://drive.google.com/file/d/1O7alVTMgnvIS5dIi177tNmtJgEmNSi6D/view";
+export const resumeLink = "https://drive.google.com/file/d/1-d2t462WUgJYHvYG0_ItW2LVbmXEnwuE/view";
 export const repoLink = "https://github.com/rohitkumar3848";
 export const twitterLink="https://x.com/rohitkumar3848";
 export const callToAction = "https://www.linkedin.com/in/rohitkumar3848";
