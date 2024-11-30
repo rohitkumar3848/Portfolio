@@ -82,7 +82,7 @@ The environment variables are to be added onto the .env file
 
 You can use [Render](https://dashboard.render.com/) to deploy your site. Follow the instructions in their docs to do so.
 
-Since we have env variables, make sure to add them from the Netlify UI as well. [Link to Guide](https://docs.netlify.com/environment-variables/get-started/#site-environment-variables)
+Since we have env variables, make sure to add them from the Render UI as well. [Link to Guide](https://render.com/docs/free)
 
 
 ## Installation Guide 🧑‍💻
